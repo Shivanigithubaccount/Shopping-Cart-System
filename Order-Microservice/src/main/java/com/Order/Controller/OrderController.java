@@ -43,7 +43,7 @@ public class OrderController {
 	}
 	
 	//Deleting order
-	@DeleteMapping("/delete/{orderID}")
+	@DeleteMapping("/delete/{id}")
 	
 	public ResponseEntity<Object> deleteOrder (@PathVariable int id) throws Exception{
 		boolean isOrderExist = orderRepo.existsById(id);
