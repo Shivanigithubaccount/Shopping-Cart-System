@@ -1,13 +1,13 @@
-package com.example.Microservice3;
+package com.User;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Microservice3Application {
+public class UserMicroserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Microservice3Application.class, args);
+		SpringApplication.run(UserMicroserviceApplication.class, args);
 	}
 
 }
